@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="locomotive-scroll.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smooth</title>
+    <style>
+      html, body{
+        margin: 0px;
+        padding: 0px;
+      }
+      section {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+      }
+      .wrapper--image, .wrapper--content{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .wrapper--image img{
+        width: 70%;
+        height: auto;
+      }
+      .wrapper--content {
+        align-items: start;
+      }
+    </style>
+   
+</head>
+<body data-scroll-container >
+  <section>
+   <div class="wrapper--image">
+<img src="Guaranis.JPG" data-scroll data-scroll-speed="60" >
+   </div>
+   <div class="wrapper--content">
+    
+      <h1 class="Salut" data-scroll data-scroll-speed="5" data-scroll-direction="horizontal" gestureDirection="both"> Les guaranis </h1>
+    </div>
+  </section>
+  <section>
+    <div class="wrapper--image">
+ <img src="cartebresil.png" data-scroll data-scroll-speed="2" >
+    </div>
+    <div class="wrapper--content">
+      <h1 class="Salut">Ou sont-ils</h1>
+       
+    </div>
+   </section><section>
+    <div class="wrapper--image">
+ <img src="date.png" data-scroll data-scroll-speed="2" >
+    </div>
+    <div class="wrapper--content">
+      <h1 class="revi" >Epoque et date</h1>
+      
+    </div>
+   </section>
+   <section>
+    <div class="wrapper--image">
+ <img src="bouffe.png" data-scroll data-scroll-speed="5">
+    </div>
+    <div class="wrapper--content">
+      <h1 class="revi" >La nourriture</h1>
+       <br>
+    </div></section>
+    <section>
+      <div class="wrapper--image">
+   <img src="canne.JPG" data-scroll data-scroll-speed="2" >
+      </div>
+      <div class="wrapper--content">
+        <h1 class="Salut">De la canne a sucre</h1>
+         
+      </div>
+      <div class="wrapper--image">
+        <img src="pommedt.jpg" data-scroll data-scroll-speed="2" >
+           </div>
+           <div class="wrapper--content">
+             <h1 class="Salut" data-scroll data-scroll-speed="-1" >Pommes de terre</h1>
+             
+           </div>
+          
+           <div class="wrapper--image">
+            <img src="manioc.jpg" data-scroll data-scroll-speed="2" >
+               </div>
+               <div class="wrapper--content">
+                 <h1 class="Salut">Du manioc</h1>
+                  
+               </div>
+    </section>
+    <section>
+      <div class="wrapper--image">
+   <img src="tatou.jpg" data-scroll data-scroll-speed="2" >
+      </div>
+      <div class="wrapper--content">
+        <h1 class="Salut">Tatous</h1>
+         
+      </div>
+      <div class="wrapper--image">
+        <img src="iguane.jpg" data-scroll data-scroll-speed="2" >
+           </div>
+           <div class="wrapper--content">
+             <h1 class="Salut">Iguanes</h1>
+             
+           </div>
+          
+           <div class="wrapper--image">
+            <img src="coati.jpg" data-scroll data-scroll-speed="2" >
+               </div>
+               <div class="wrapper--content">
+                 <h1 class="Salut">Coatis</h1>
+                  
+               </div>
+    </section>
+    <section>
+      <div class="wrapper--image">
+   <img src="reviro.jpg" data-scroll data-scroll-speed="2" >
+      </div>
+      <div class="wrapper--content">
+        <h1 class="revi">Reviro</h1>
+        
+      </div>
+     </section>
+     <section>
+      <div class="wrapper--image">
+   <img src="habitation.jpg" data-scroll data-scroll-speed="2" >
+      </div>
+      <div class="wrapper--content">
+        <h1 class="revi" >Les habitations</h1>
+        
+      </div>
+     </section>
+     <section>
+      <div class="wrapper--image">
+   <img src="fagot.jpeg" data-scroll data-scroll-speed="2" >
+      </div>
+      <div class="wrapper--content">
+        <h1 class="revi" >Des fagots</h1>
+        
+      </div>
+     </section>
+     <section>
+      <div class="wrapper--image">
+   <img src="habit.jpg" data-scroll data-scroll-speed="2" >
+      </div>
+      <div class="wrapper--content">
+        <h1 class="revi">Les habits</h1>
+        
+      </div>
+     </section><section>
+      <div class="wrapper--image">
+   <img src="croyances.jpg" data-scroll data-scroll-speed="2" >
+      </div>
+      <div class="wrapper--content">
+        <h1 class="revi" >Les croyances</h1>
+        
+      </div>
+     </section>
+     <section>
+      <div class="wrapper--image">
+   
+      </div>
+      <div class="wrapper--content">
+        <h1 class="revi" >Le QUIZ💬</h1>
+        
+      </div>
+     </section>
+   <!--script-->
+   <script src="locomotive-scroll.min.js"></script>
+<script>
+      const scroll = new LocomotiveScroll({
+     el: document.querySelector('[data-scroll-container]'),
+     smooth: true
+  });
+</script>
+</body>
+</html>
